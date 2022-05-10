@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		E07B992E280BD34C00275E35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B992D280BD34C00275E35 /* AppDelegate.swift */; };
 		E07B9930280BD34C00275E35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B992F280BD34C00275E35 /* SceneDelegate.swift */; };
-		E07B9932280BD34C00275E35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B9931280BD34C00275E35 /* ViewController.swift */; };
 		E07B9935280BD34C00275E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07B9933280BD34C00275E35 /* Main.storyboard */; };
 		E07B9938280BD34C00275E35 /* MCEmployDetails.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E07B9936280BD34C00275E35 /* MCEmployDetails.xcdatamodeld */; };
 		E07B993A280BD35000275E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07B9939280BD35000275E35 /* Assets.xcassets */; };
 		E07B993D280BD35000275E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07B993B280BD35000275E35 /* LaunchScreen.storyboard */; };
+		E07B994B280BD46A00275E35 /* MCEmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B994A280BD46A00275E35 /* MCEmployeeListViewController.swift */; };
+		E07B994E280BD66D00275E35 /* MCEmployListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B994C280BD66D00275E35 /* MCEmployListTableViewCell.swift */; };
+		E07B994F280BD66D00275E35 /* MCEmployListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E07B994D280BD66D00275E35 /* MCEmployListTableViewCell.xib */; };
+		E07B9951280C291F00275E35 /* MCEmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B9950280C291E00275E35 /* MCEmployeeModel.swift */; };
+		E07B9954280C2C4400275E35 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B9953280C2C4400275E35 /* UIView.swift */; };
+		E07B9956280C30C300275E35 /* MCEmployeeAddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B9955280C30C200275E35 /* MCEmployeeAddEditViewController.swift */; };
+		E07B9959280C42E700275E35 /* EmployeeList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B9957280C42E700275E35 /* EmployeeList+CoreDataClass.swift */; };
+		E07B995A280C42E700275E35 /* EmployeeList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B9958280C42E700275E35 /* EmployeeList+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E07B992A280BD34C00275E35 /* MCEmployDetails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCEmployDetails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07B992D280BD34C00275E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E07B992F280BD34C00275E35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E07B9931280BD34C00275E35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E07B9934280BD34C00275E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E07B9937280BD34C00275E35 /* MCEmployDetails.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MCEmployDetails.xcdatamodel; sourceTree = "<group>"; };
 		E07B9939280BD35000275E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E07B993C280BD35000275E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E07B993E280BD35000275E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E07B994A280BD46A00275E35 /* MCEmployeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCEmployeeListViewController.swift; sourceTree = "<group>"; };
+		E07B994C280BD66D00275E35 /* MCEmployListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCEmployListTableViewCell.swift; sourceTree = "<group>"; };
+		E07B994D280BD66D00275E35 /* MCEmployListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MCEmployListTableViewCell.xib; sourceTree = "<group>"; };
+		E07B9950280C291E00275E35 /* MCEmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCEmployeeModel.swift; sourceTree = "<group>"; };
+		E07B9953280C2C4400275E35 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E07B9955280C30C200275E35 /* MCEmployeeAddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCEmployeeAddEditViewController.swift; sourceTree = "<group>"; };
+		E07B9957280C42E700275E35 /* EmployeeList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmployeeList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E07B9958280C42E700275E35 /* EmployeeList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmployeeList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,7 @@
 		E07B9921280BD34C00275E35 = {
 			isa = PBXGroup;
 			children = (
+				E07B995B280C438300275E35 /* Core Data */,
 				E07B992C280BD34C00275E35 /* MCEmployDetails */,
 				E07B992B280BD34C00275E35 /* Products */,
 			);
@@ -60,14 +75,84 @@
 			children = (
 				E07B992D280BD34C00275E35 /* AppDelegate.swift */,
 				E07B992F280BD34C00275E35 /* SceneDelegate.swift */,
-				E07B9931280BD34C00275E35 /* ViewController.swift */,
-				E07B9933280BD34C00275E35 /* Main.storyboard */,
+				E07B9952280C2C1400275E35 /* Utitlities */,
+				E07B9944280BD37E00275E35 /* EmployDetails */,
 				E07B9939280BD35000275E35 /* Assets.xcassets */,
 				E07B993B280BD35000275E35 /* LaunchScreen.storyboard */,
 				E07B993E280BD35000275E35 /* Info.plist */,
 				E07B9936280BD34C00275E35 /* MCEmployDetails.xcdatamodeld */,
 			);
 			path = MCEmployDetails;
+			sourceTree = "<group>";
+		};
+		E07B9944280BD37E00275E35 /* EmployDetails */ = {
+			isa = PBXGroup;
+			children = (
+				E07B9949280BD3B300275E35 /* Model */,
+				E07B9948280BD3AE00275E35 /* View */,
+				E07B9947280BD3AA00275E35 /* ViewModel */,
+				E07B9946280BD3A600275E35 /* Controller */,
+				E07B9945280BD3A100275E35 /* Storyboard */,
+			);
+			path = EmployDetails;
+			sourceTree = "<group>";
+		};
+		E07B9945280BD3A100275E35 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E07B9933280BD34C00275E35 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E07B9946280BD3A600275E35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E07B994A280BD46A00275E35 /* MCEmployeeListViewController.swift */,
+				E07B9955280C30C200275E35 /* MCEmployeeAddEditViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E07B9947280BD3AA00275E35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E07B9948280BD3AE00275E35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E07B994C280BD66D00275E35 /* MCEmployListTableViewCell.swift */,
+				E07B994D280BD66D00275E35 /* MCEmployListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E07B9949280BD3B300275E35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E07B9950280C291E00275E35 /* MCEmployeeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E07B9952280C2C1400275E35 /* Utitlities */ = {
+			isa = PBXGroup;
+			children = (
+				E07B9953280C2C4400275E35 /* UIView.swift */,
+			);
+			path = Utitlities;
+			sourceTree = "<group>";
+		};
+		E07B995B280C438300275E35 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				E07B9957280C42E700275E35 /* EmployeeList+CoreDataClass.swift */,
+				E07B9958280C42E700275E35 /* EmployeeList+CoreDataProperties.swift */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +216,7 @@
 				E07B993D280BD35000275E35 /* LaunchScreen.storyboard in Resources */,
 				E07B993A280BD35000275E35 /* Assets.xcassets in Resources */,
 				E07B9935280BD34C00275E35 /* Main.storyboard in Resources */,
+				E07B994F280BD66D00275E35 /* MCEmployListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +227,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E07B994B280BD46A00275E35 /* MCEmployeeListViewController.swift in Sources */,
+				E07B9951280C291F00275E35 /* MCEmployeeModel.swift in Sources */,
+				E07B9959280C42E700275E35 /* EmployeeList+CoreDataClass.swift in Sources */,
 				E07B9938280BD34C00275E35 /* MCEmployDetails.xcdatamodeld in Sources */,
-				E07B9932280BD34C00275E35 /* ViewController.swift in Sources */,
+				E07B9954280C2C4400275E35 /* UIView.swift in Sources */,
 				E07B992E280BD34C00275E35 /* AppDelegate.swift in Sources */,
 				E07B9930280BD34C00275E35 /* SceneDelegate.swift in Sources */,
+				E07B9956280C30C300275E35 /* MCEmployeeAddEditViewController.swift in Sources */,
+				E07B994E280BD66D00275E35 /* MCEmployListTableViewCell.swift in Sources */,
+				E07B995A280C42E700275E35 /* EmployeeList+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +385,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UYGW75S3Q7;
+				DEVELOPMENT_TEAM = 58NA44RQD2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MCEmployDetails/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Employee Details";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,14 +415,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UYGW75S3Q7;
+				DEVELOPMENT_TEAM = 58NA44RQD2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MCEmployDetails/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Employee Details";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
